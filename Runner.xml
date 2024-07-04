@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tehno Mag Registration" thread-count="1" data-provider-thread-count="1">
+    <parameter name="browser" value="CHROME"/>
+    <parameter name="env" value="PROD"/>
+    <parameter name="quit" value="NO"/>
+    <parameter name="wait" value="30"/>
+
+    <test name="Tehno Mag Registration">
+        <classes>
+            <class name="tests.TehnoMagTest"/>
+        </classes>
+    </test>
+</suite>
