@@ -6,7 +6,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pages.TehnoMagRegistrationPage;
 
-public class TehnoMagTest extends BaseTest {
+public class TehnoMagRegistrationTest extends BaseTest {
 
     @BeforeMethod
     @Parameters({"browser", "wait", "env"})

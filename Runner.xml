@@ -8,7 +8,7 @@
 
     <test name="Tehno Mag Registration">
         <classes>
-            <class name="tests.TehnoMagTest"/>
+            <class name="tests.TehnoMagRegistrationTest"/>
         </classes>
     </test>
 </suite>
