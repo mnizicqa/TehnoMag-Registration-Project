@@ -81,7 +81,7 @@ public class TehnoMagRegistrationPage extends BasePage {
     }
 
     public void clickOnNewsLetterCheckBox() throws Exception {
-        click(newsLetterCheckbox, "Newsletter !");
+        click(newsLetterCheckbox, "Newsletter!");
     }
 
     public void clickOnAcceptTermsCheckbox() throws Exception {
